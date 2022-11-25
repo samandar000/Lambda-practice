@@ -1,3 +1,9 @@
+import json
+
+data = open('data.json').read()
+users = json.loads(data)
+
+
 def max_odd(l: list) -> int:
     '''returns the maximum odd number in the list 'l' given as an argument. (you may use max, labmda)
     
